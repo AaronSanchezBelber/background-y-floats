@@ -1,0 +1,88 @@
+main {
+    background-color: rgb(255, 255, 255);
+  
+}
+.lateral_left {
+    float: left; 
+    background: url("./fondos/corazon-2.svg"); 
+    background-size: contain;
+    background-repeat: repeat-y;
+    padding-bottom: 1350px; 
+    padding-left: 100px; 
+    padding-right: 100px;
+    margin-left: 0%;
+    
+}
+.lateral_right {
+    float: right; 
+    background: url("./fondos/corazon-2.svg");  
+    background-size: contain;
+    background-repeat: repeat-y;
+    padding-bottom: 1350px; 
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-right: 0%;
+
+}
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+   
+    
+}
+div {
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 15px;
+
+
+}
+.class1 {
+    background: url("./fondos/manchas.png");
+    background-size: 300px;
+    padding-top: 10px;
+    border: 3px solid black;
+    margin-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    
+}
+.class2 {
+    background: url("./fondos/fuego.svg"), url("./fondos/fuego.svg"), url("./fondos/tallos.jpg");
+    background-size: 50px, 50px, 200px;
+    background-position: left bottom, right bottom, center;
+    background-repeat: no-repeat, no-repeat, repeat;
+    padding-top: 10px;
+    border: 3px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(255, 204, 0);
+    font-weight: bold;
+    
+}
+.class3 {
+    background-image: url("./fondos/ojo.svg"), url("./fondos/hexagonos.jpg") ;
+    background-position: center, center;
+    background-repeat: no-repeat, repeat;
+    background-size: 400px, 180px;
+    padding-top: 10px;
+    border: 3px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(182, 25, 25);
+    font-weight: bold;
+}
+.class4 {
+    background: url("./fondos/caballo.svg"), url("./fondos/estrellas.png");
+    background-position: bottom, center;
+    background-repeat: repeat-x, repeat;
+    background-size: 50px, 100px;
+    padding-top: 10px;
+    border: 3px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(29, 173, 56);
+    font-weight: bold;
+}
